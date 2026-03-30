@@ -1,0 +1,124 @@
+body {
+  background-color: #f5f5f5;
+}
+
+.con {
+  height: 420px;
+  width: 350px;
+  border-radius: 10px;
+  position: relative;
+  margin: 100px auto;
+}
+
+.blu {
+  height: 150px;
+  background-color: #4072ed;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.wth {
+  height: 270px;
+  background-color: #fefefe;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.img {
+  height: 130px;
+  width: 130px;
+  border-radius: 50%;
+  position: absolute;
+  left: 110px;
+  top: 15px;
+}
+
+.img img {
+  height: 170px;
+  width: 170px;
+  border-radius: 50%;
+  border: 3px solid #fefefe;
+}
+
+.fr {
+  height: 50px;
+}
+
+.fr p {
+  text-align: center;
+  position: relative;
+  top: 40px;
+  margin: 0;
+  text-transform: capitalize;
+}
+
+.r2 {
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.r3 {
+  color: #aeaead;
+}
+
+.sc {
+  height: 60px;
+  text-align: center;
+}
+
+.sc span i {
+  height: 40px;
+  width: 40px;
+  font-size: 20px;
+  border-radius: 50%;
+  margin: 10px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.sc span i:hover {
+  cursor: pointer;
+}
+
+/* Social colors */
+.t1 { background-color: #4267ad; }
+.t2 { background-color: #179def; }
+.t3 { background-color: #e72f6a; }
+.t4 { background-color: #f4352d; }
+
+.th {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.th button {
+  height: 35px;
+  width: 140px;
+  border-radius: 50px;
+  margin: 10px;
+  text-transform: capitalize;
+  color: #fff;
+  background-color: #4072ed;
+  border: none;
+}
+
+.frr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.frr p {
+  color: #aeaead;
+  font-size: 30px;
+  margin: 10px;
+}
+
+.frr span {
+  margin: 10px;
+  color: black;
+}
